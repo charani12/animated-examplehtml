@@ -1,0 +1,80 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Dragon Game</title>
+    </head>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .container{
+            height:600px;
+            width:800px;
+            background-color:lightseagreen;
+            position: relative;
+            
+            
+        }
+        #box1{
+            animation-name: dinosur;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position:absolute;
+            left:0px;
+            top:500px;
+
+           
+        }
+#box2 {
+    animation-name: cactus;
+    animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position:absolute;
+            left:700px;
+            top:500px;
+
+    
+}
+    .game{
+        background-color: rgb(228, 50, 76);
+        width:100px;
+        height:100px;
+
+    }     
+    @keyframes dinosur {
+        from{
+            left:0px;
+        }
+       to{
+           left:690px;
+       } 
+    
+   /* 75% { transform: translate(-60%, -50%) scale(0.75, 0.75); }
+    
+    }
+
+@keyframes cactus {
+    from{
+        left:700px;
+    }
+    to{
+        left:0px
+    }*/
+}
+        
+        </style>
+        <body>
+            <div class="container">
+                <div class="game" id="box1">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAACFCAMAAABCBMsOAAAAXVBMVEX///9TU1P39/eDg4M1NTVHR0dPT09MTEycnJxsbGyzs7Pu7u5DQ0PX19ddXV3r6+vGxsaqqqqWlpbQ0NBxcXE7Ozvd3d1lZWWMjIzl5eV6enqkpKS6urorKytYWFhc7v9wAAADNElEQVR4nO2a2XarIBRAIxYIzqmCQ4z//5kFzYAxoMkV7e06+6mLUNgBkcMhhwMAAAAAAAAAAADwF0AFM1N+b2VBKDGC/Y0sDp4FuolFKoSwWRBfiDh0bXHE194kJpMoc25B+466oijK3S0S+WdLd7eQUx/sb4F+hUUQBJXp8dzMwqOU7r9GrIAFWIAFWBgs8DNfO1gkp2fOYnMLUrjuEizes/CS7zvVfhZqk79y2dHiwdcKHSCJvUaI0JNFMgKvYNEmJbOu9NorWTKejDxMNeoVLIKIeLHVgntPUR621v/MQh675iy8XS1ELmmjnS0aHkURniyKjS381wvUjUX3Kyy8pvKP49K48X2/Mp3PZX3FimkkZUEIZuPSjNtSFUMaiSbrWkz3yHyyMF5Qrm7B5EvwlhKq0zSbrgyNbhiR1S36WbmORyiPxMbJUOD8gOrOiYXcHm4WczOh1kjqZiwez8ZCC0IdWYiefJFFwVjjwsKzZxLHFgviko8tluHo3QkWYDGx4PhdDwcWYV2LYsHydGshQc0bFpTzS+7EojBndCcSZxcGvUXFCrbQgx7n2/scsSBz5d4iXrhQ3FrkkSXd/3CgkdObUyFj6tml0sk6gUsLxWzIu2LQbSabtXB+ZaosuO0uiFLcbWERZvKIXnWvJUgrP1wxuppR8Q0WW4zDg9TXJ+Ueh5J0vS6QlaFOplmo7NnYwt6CteG7BP8yc7meL/TzSC3Hho8sThdLE4aGn/KyyLfxPbEg4p7Xullk1iZec/pg1m4WBGOsLC4Uk3WfizcsSHM6n2XX4fF8lsHYThZYi2eO9P+ziCt1VfCP1sqCUMy1SOI9i1YlKKNliWkZ5qkfuEx36rD/tU+ca828ZxHGimVv+yJSN398uoqkBX2KZdw9F3HeMx24TS2MqBmpUBhqQ6oshCzSq6HQ6Q6rns6EsVKbK3VLwxgrdI28/DiXUw9MvwWSpenDQqX8xitVFY2inJyw8b+/bvgFiPaX0bydfBJzHF1bDYdLuUhfqbgvGsdaeo8t7xuOFp0dkd/0TCsLWXrbzRqVBB9F28FQ4hu/aj602zi/5QYAAAAAAAAAAAD+AD+zdzZZ++DRNgAAAABJRU5ErkJggg==">
+                </div>
+                    <div class="game" id="box2">
+                        <img src="https://vignette.wikia.nocookie.net/trex-runner/images/9/96/Cactusdisplay.png/revision/latest/top-crop/width/150/height/150?cb=20190423055903" height="100px" width="100px" background-repeat="repeat" >
+                    </div>
+
+                    
+               
+            </div>
+        </body>
+        </html>
